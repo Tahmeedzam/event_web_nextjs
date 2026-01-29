@@ -5,8 +5,7 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'example.com', // Replace with your image host
-        pathname: '/images/**', // Optional: restrict to specific paths
+        hostname: 'res.cloudinary.com',
       },
     ],
   }
